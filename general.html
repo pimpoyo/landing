@@ -1,46 +1,41 @@
 <!doctype html>
 <html>
-	<head>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-		<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,600' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="css/style.css">
-		<!-- Start WOWSlider.com HEAD section -->
-<link rel="stylesheet" type="text/css" href="engine1/style.css" />
-<script type="text/javascript" src="engine1/jquery.js"></script>
-<!-- End WOWSlider.com HEAD section -->
-		<meta charset="UTF-8">
-	</head>
-	<body ng-app="AppLanding">
-		<div class="main" ng-controller="MainController">
-			<app-header info="general"></app-header>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Start WOWSlider.com HEAD section -->
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+    <!-- End WOWSlider.com HEAD section -->
+    <meta charset="UTF-8">
+  </head>
+  <body ng-app="AppLanding">
+    <div class="main" ng-controller="MainController">
+      <app-header info="general"></app-header>
+      <!--<app-slider info="general"></app-slider>-->
+      <!-- Start WOWSlider.com BODY section -->
+      <div id="wowslider-container1">
+        <div class="ws_images"><ul>
+            <li><img src="data1/images/ij5a9439.jpg" alt="IJ5A9439" title="IJ5A9439" id="wows1_0"/></li>
+            <li><a href="http://wowslider.com"><img src="data1/images/ij5a9441.jpg" alt="full width slider" title="IJ5A9441" id="wows1_1"/></a></li>
+            <li><img src="data1/images/ij5a9453.jpg" alt="IJ5A9453" title="IJ5A9453" id="wows1_2"/></li>
+        </ul></div>
+      </div>	
+      <!-- End WOWSlider.com BODY section -->   
 
-			<!-- Start WOWSlider.com BODY section -->
-			<div id="wowslider-container1">
-				<div class="ws_images"><ul>
-						<li><img src="data1/images/ij5a9439.jpg" alt="IJ5A9439" title="IJ5A9439" id="wows1_0"/></li>
-						<li><a href="http://wowslider.com"><img src="data1/images/ij5a9441.jpg" alt="full width slider" title="IJ5A9441" id="wows1_1"/></a></li>
-						<li><img src="data1/images/ij5a9453.jpg" alt="IJ5A9453" title="IJ5A9453" id="wows1_2"/></li>
-				</ul></div>
-				<div class="ws_bullets"><div>
-						<a href="#" title="IJ5A9439"><span><img src="data1/tooltips/ij5a9439.jpg" alt="IJ5A9439"/>1</span></a>
-						<a href="#" title="IJ5A9441"><span><img src="data1/tooltips/ij5a9441.jpg" alt="IJ5A9441"/>2</span></a>
-						<a href="#" title="IJ5A9453"><span><img src="data1/tooltips/ij5a9453.jpg" alt="IJ5A9453"/>3</span></a>
-				</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">carousel bootstrap</a> by WOWSlider.com v8.1m</div>
-				<div class="ws_shadow"></div>
-			</div>	
-			<!-- End WOWSlider.com BODY section -->   
-
-			<app-etapa info="general"></app-etapa>
-			<app-footer info="general"></app-footer>
-		</div>
-		<!-- Include the AngularJS library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
-		<script src="js/app.js"></script>
-		<script src="js/controllers/MainController.js"></script>
-		<script src="js/directives/appHeader.js"></script>
-		<script src="js/directives/appEtapa.js"></script>
-		<script src="js/directives/appFooter.js"></script>
-		<script type="text/javascript" src="engine1/wowslider.js"></script>
-		<script type="text/javascript" src="engine1/script.js"></script>
-	</body>
+      <app-etapa info="general"></app-etapa>
+      <app-footer info="general"></app-footer>
+    </div>
+    <!-- Include the AngularJS library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers/MainController.js"></script>
+    <script src="js/directives/appHeader.js"></script>
+    <script src="js/directives/appSlider.js"></script>
+    <script src="js/directives/appEtapa.js"></script>
+    <script src="js/directives/appFooter.js"></script>
+    <script type="text/javascript" src="engine1/wowslider.js"></script>
+    <script type="text/javascript" src="engine1/script.js"></script>
+  </body>
 </html>
