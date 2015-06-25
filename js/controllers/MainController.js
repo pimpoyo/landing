@@ -1,6 +1,7 @@
 app.controller('MainController', ['$scope', function($scope){
 	$scope.general = {
 		headerClass: 'headerGeneral',
+		navClass: 'aGeneral',
 		etapaTitle: 'Título general',
 		etapaTitleClass: 'titleGeneral',
 		etapaContent: 'Contenido general',
@@ -8,6 +9,7 @@ app.controller('MainController', ['$scope', function($scope){
 	},
 	$scope.infantil = {
 		headerClass: 'headerInfantil',
+		navClass: 'aInfantil',
 		etapaTitle: 'Título infantil',
 		etapaTitleClass: 'titleInfantil',
 		etapaContent: 'Contenido infantil',
@@ -15,6 +17,7 @@ app.controller('MainController', ['$scope', function($scope){
 	},
 	$scope.primaria = {
 		headerClass: 'headerPrimaria',
+		navClass: 'aPrimaria',
 		etapaTitle: 'Título primaria',
 		etapaTitleClass: 'titlePrimaria',
 		etapaContent: 'Contenido primaria',
@@ -22,6 +25,7 @@ app.controller('MainController', ['$scope', function($scope){
 	},
 	$scope.secundaria = {
 		headerClass: 'headerSecundaria',
+		navClass: 'aSecundaria',
 		etapaTitle: 'Título secundaria',
 		etapaTitleClass: 'titleSecundaria',
 		etapaContent: 'Contenido secundaria',
@@ -29,6 +33,7 @@ app.controller('MainController', ['$scope', function($scope){
 	},
 	$scope.bachillerato = {
 		headerClass: 'headerBachillerato',
+		navClass: 'aBachillerato',
 		etapaTitle: 'Título bachillerato',
 		etapaTitleClass: 'titleBachillerato',
 		etapaContent: 'Contenido bachillerato',
