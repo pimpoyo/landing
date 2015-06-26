@@ -1,4 +1,5 @@
 body {
+	margin: 0;
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 	line-height: 20px;
@@ -380,61 +381,74 @@ footer div a {
 }
 /* Slider style - End */
 
-
-/* Small mobiles */
-@media (max-width: @screen-xs-max) {
-  .container {
-    margin: 0 auto;
-  }
-
-  .escudo {
-    width: 100%;
-  }  
-
-  .escudo img{
-    margin: 0 auto;
-  }
-  .call_to_action {
-    margin: 0 auto;
-  }
+/* Mediaqueries - Start */
+@media screen and (max-device-width: 319px) {
+	.container {
+		min-width: 310px;
+	}
+	
+	.nav_main a {
+		margin: 0 3px;
+	}
 }
 
-/* Small devices */
-@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
-  .container {
-    margin: 0 auto;
-  }
+@media screen and (min-device-width: 320px) and (max-device-width: 479px) {
+	.container {
+		margin: 0 auto;
+		width: 90%;
+	}
 
-  .escudo {
-    width: 100%;
-  }  
+	.nav_main a {
+		margin: 0 1%;
+	}
 
-  .escudo img{
-    margin: 0 auto;
-  }
-  .call_to_action {
-    margin: 0 auto;
-  }
 }
 
-/* Medium devices */
-@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
-  .container {
-    margin: 0 auto;
-  }
+@media screen and (min-device-width: 480px) and (max-device-width: 767px) {
+	.container {
+		margin: 0 auto;
+		width: 90%;
+	}
 
-  .escudo {
-    width: 100%;
-  }  
+	.nav_main a {
+		margin: 0 1%;
+	}
 
-  .escudo img{
-    margin: 0 auto;
-  }
-  .call_to_action {
-    margin: 0 auto;
-  }
 }
 
-/* Large devices */
-@media (min-width: @screen-lg-min) {
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+	.container {
+		max-width: 960px;
+		margin: 0 auto;
+		width: 90%;
+	}
+
+	.nav_main a {
+		margin: 0 1%;
+	}
 }
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
+	.container {
+		max-width: 960px;
+		margin: 0 auto;
+		width: 90%;
+	}
+	
+	.nav_main a {
+		margin: 0 10px;
+	}
+}
+
+@media screen and (min-device-width: 1280px) {
+	.container {
+		max-width: 1170px;
+		margin: 0 auto;
+		width: 90%;
+	}
+	
+	.nav_main a {
+		margin: 0 10px;
+	}
+}
+/* Mediaqueries - End */
