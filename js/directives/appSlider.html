@@ -1,19 +1,8 @@
 <div id="slider-container">
 	<div id="slider-box">
-		<div class="slider-element">
-			<article class="element-red">
-
+		<div class="slider-element" ng-repeat="image in info.images">
+			<article class="{{ image }}">
 			</article>
-		</div>
-		<div class="slider-element">
-			<article class="element-green">
-
-			</article>
-		</div>
-		<div class="slider-element">
-			<article class="element-blue">
-
-			</article>                            
 		</div>
 	</div>
 </div>

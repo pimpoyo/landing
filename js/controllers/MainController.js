@@ -1,10 +1,11 @@
 app.controller('MainController', ['$scope', function($scope){
 	$scope.general = {
 		headerClass: 'headerGeneral',
-		navClass: 'aGeneral',
-		imagen1: 'ij5a9439.jpg',
-		imagen2: 'ij5a9441.jpg',
-		imagen3: 'ij5a9453.jpg',
+		images : {
+			classImage1: 'element-red',
+			classImage2: 'element-green',
+			classImage3: 'element-blue'
+		},
 		etapaTitle: 'Título general',
 		etapaTitleClass: 'titleGeneral',
 		etapaContent: 'Contenido general',
@@ -12,10 +13,11 @@ app.controller('MainController', ['$scope', function($scope){
 	},
 	$scope.infantil = {
 		headerClass: 'headerInfantil',
-		navClass: 'aInfantil',
-		imagen1: 'ij5a9439.jpg',
-		imagen2: 'ij5a9441.jpg',
-		imagen3: 'ij5a9453.jpg',
+		images : {
+			classImage1: 'element-red',
+			classImage2: 'element-green',
+			classImage3: 'element-blue'
+		},
 		etapaTitle: 'Título infantil',
 		etapaTitleClass: 'titleInfantil',
 		etapaContent: 'Contenido infantil',
@@ -23,10 +25,11 @@ app.controller('MainController', ['$scope', function($scope){
 	},
 	$scope.primaria = {
 		headerClass: 'headerPrimaria',
-		navClass: 'aPrimaria',
-		imagen1: 'ij5a9439.jpg',
-		imagen2: 'ij5a9441.jpg',
-		imagen3: 'ij5a9453.jpg',
+		images : {
+			classImage1: 'element-red',
+			classImage2: 'element-green',
+			classImage3: 'element-blue'
+		},
 		etapaTitle: 'Título primaria',
 		etapaTitleClass: 'titlePrimaria',
 		etapaContent: 'Contenido primaria',
@@ -34,10 +37,11 @@ app.controller('MainController', ['$scope', function($scope){
 	},
 	$scope.secundaria = {
 		headerClass: 'headerSecundaria',
-		navClass: 'aSecundaria',
-		imagen1: 'ij5a9439.jpg',
-		imagen2: 'ij5a9441.jpg',
-		imagen3: 'ij5a9453.jpg',
+		images : {
+			classImage1: 'element-red',
+			classImage2: 'element-green',
+			classImage3: 'element-blue'
+		},
 		etapaTitle: 'Título secundaria',
 		etapaTitleClass: 'titleSecundaria',
 		etapaContent: 'Contenido secundaria',
@@ -45,10 +49,11 @@ app.controller('MainController', ['$scope', function($scope){
 	},
 	$scope.bachillerato = {
 		headerClass: 'headerBachillerato',
-		navClass: 'aBachillerato',
-		imagen1: 'ij5a9439.jpg',
-		imagen2: 'ij5a9441.jpg',
-		imagen3: 'ij5a9453.jpg',
+		images : {
+			classImage1: 'element-red',
+			classImage2: 'element-green',
+			classImage3: 'element-blue'
+		},
 		etapaTitle: 'Título bachillerato',
 		etapaTitleClass: 'titleBachillerato',
 		etapaContent: 'Contenido bachillerato',
