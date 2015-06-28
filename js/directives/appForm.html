@@ -1,0 +1,18 @@
+<div id="formulario">
+	<h3 class="{{ info.formTitleColor }}">Déjanos tus datos y te llamamos</h3>
+	<form class="form" id="form1" method="POST">
+		<p class="name">
+			<input name="name" type="text" class="feedback-input" placeholder="Name" id="name" maxlength="100" required/>
+		</p>
+		<p class="email">
+			<input name="email" type="email" class="feedback-input" id="email" placeholder="Email" maxlength="100" required/>
+		</p>
+		<p class="phone">
+			<input type="tel" pattern="[0-9]{9}" class="feedback-input" placeholder="Teléfono" maxlength="9" required/>
+		</p>
+		<div class="submit">
+			<input type="submit" value="Solicitar más información" id="button" class="{{ info.btColor }}"/>
+			<div class="ease"></div>
+		</div>
+	</form>
+</div>

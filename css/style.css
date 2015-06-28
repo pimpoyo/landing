@@ -405,6 +405,148 @@ footer div a {
 }
 /* Slider style - End */
 
+/* Form - Start */
+#formulario {
+    background-color: rgba(200, 200, 200, 0.4);
+    margin: 30px auto;
+    padding: 35px 35px 50px;
+    width: 450px;
+}
+
+.formTitleGeneral {
+	color: #0088ff;
+}
+
+.formTitleInfantil {
+	color: #98C21A;
+}
+
+.formTitlePrimaria {
+	color: #FFC000;
+}
+
+.formTitleSecundaria {
+	color: #7D7D7D;
+}
+
+.formTitleBachillerato {
+	color: #FF782E;
+}
+
+.feedback-input {
+  color: #3c3c3c;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+.feedback-input:focus {
+  background: #fff;
+  box-shadow: 0;
+  border: 3px solid #3498db;
+  color: #3498db;
+  outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused {
+  color: #30aed6;
+  border: #30aed6 solid 3px;
+}
+
+#button {
+  float: left;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  font-weight: 700;
+}
+
+.btGeneral {
+  background-color: #0088FF;
+  color: white;
+}
+
+.btGeneral:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #0088FF;
+}
+
+.btInfantil {
+  background-color: #98C21A;
+  color: white;
+}
+
+.btInfantil:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #98C21A;
+}
+
+.btPrimaria {
+  background-color: #FFC000;
+  color: white;
+}
+
+.btPrimaria:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #FFC000;
+}
+
+.btSecundaria {
+  background-color: #7D7D7D;
+  color: white;
+}
+
+.btSecundaria:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #7D7D7D;
+}
+
+.btBachillerato {
+  background-color: #FF782E;
+  color: white;
+}
+
+.btBachillerato:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #FF782E;
+}
+
+.ease {
+  width: 0px;
+  height: 73px;
+  background-color: #fbfbfb;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  -ms-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.submit:hover .ease {
+  width: 100%;
+  background-color: white;
+}
+
+/* Form - End */
+
+
 /* Mediaqueries - Start */
 @media screen and (max-device-width: 319px) {
 	.container {
