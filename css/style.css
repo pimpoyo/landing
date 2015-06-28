@@ -15,6 +15,13 @@ footer {
 	clear: both;
 }
 
+footer p {
+	font-size: 11px;
+	margin: 0;
+	padding: 10px 0;
+	text-align: center;
+}
+
 .call_to_action {
 	border-radius: 3px;
 	color: white;
@@ -28,6 +35,13 @@ footer {
 
 .texto {
 	color: #4E4D4D;
+}
+
+.link {
+	font-size: 18px;
+	font-weight: 600;
+	padding-top: 20px;
+	text-align: center;
 }
 
 /* General - Start */
@@ -733,7 +747,7 @@ header {
 	/* Form - Start */
 	#formulario {
     	margin: 10px 0;
-    	padding: 1px 10px 5px;
+    	padding: 1px 10px 10px;
 	}
 
 	#formulario p {
@@ -756,6 +770,10 @@ header {
 		font-size: 20px;
 		padding-top: 22px;
 		padding-bottom: 22px;
+	}
+	
+	.ease {
+		height: 68px;
 	}
 	
 	.submit:hover .ease {
