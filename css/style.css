@@ -11,6 +11,7 @@ header {
   padding-bottom: 20px;
 }
 
+
 .call_to_action {
   border-radius: 3px;
   color: white;
@@ -409,6 +410,15 @@ footer div a {
 	.container {
 		min-width: 310px;
 	}
+
+	.escudo {
+		background-image: url("../img/logo-46x55.png");
+		background-repeat: no-repeat;
+		display: block;
+		float: left;
+		height: 55px;
+		width: 46px;	
+	}
 	
 	.main_nav {
 		margin: 0;
@@ -455,7 +465,7 @@ footer div a {
 
 	.menu_bar span {
 		float: right;
-		font-size: 40px;
+		font-size: 35px;
 	}
 }
 
@@ -465,17 +475,40 @@ footer div a {
 		width: 90%;
 	}
 
+	header {
+		padding-bottom: 35px;
+	}	
+
+	.escudo {
+		background-image: url("../img/logo-46x55.png");
+		background-repeat: no-repeat;
+		display: block;
+		float: left;
+		margin-right: 18%;
+		height: 55px;
+		width: 46px;	
+	}
+
+	.call_to_action {
+		float: left;
+		margin: 0;
+		padding-left: 0;
+		padding-right: 0;
+		width: 50%;
+	}
+
 	.main_nav {
 		margin: 0;
 		padding: 0;
 		border: none;
+		clear: none;
 	}
 
 	.nav_main {
 		width: 40%;
 		height: 100%;
 		left: -100%;
-		margin: 20px 0 0 -5%;
+		margin: 34px 0 0 -5%;
 		position: fixed;
 		border-top: 1px solid rgba(255, 255, 255, .3);
 	}
@@ -504,13 +537,13 @@ footer div a {
 		color: #FFFFFF;
 		display: block;
 		font-weight: bold;
-		padding: 0 20px 30px;
+		padding: 7px 0 30px;
 		text-decoration: none;
 	}
 
 	.menu_bar span {
 		float: right;
-		font-size: 40px;
+		font-size: 35px;
 	}
 }
 
@@ -519,18 +552,41 @@ footer div a {
 		margin: 0 auto;
 		width: 90%;
 	}
+	
+	header {
+		padding-bottom: 35px;
+	}
+	
+	.escudo {
+		background-image: url("../img/logo-46x55.png");
+		background-repeat: no-repeat;
+		display: block;
+		float: left;
+		margin-right: 18%;
+		height: 55px;
+		width: 46px;	
+	}
+
+	.call_to_action {
+		float: left;
+		margin: 0;
+		padding-left: 0;
+		padding-right: 0;
+		width: 50%;
+	}
 
 	.main_nav {
 		margin: 0;
 		padding: 0;
 		border: none;
+		clear: none;
 	}
 
 	.nav_main {
 		width: 40%;
 		height: 100%;
 		left: -100%;
-		margin: 20px 0 0 -5%;
+		margin: 34px 0 0 -5%;
 		position: fixed;
 		border-top: 1px solid rgba(255, 255, 255, .3);
 	}
@@ -553,19 +609,19 @@ footer div a {
 		width: 100%;
 		background-color: #CCCCCC;
 	}
-
+	
 	.bt-menu {
   		background-color: #00192F;
 		color: #FFFFFF;
 		display: block;
 		font-weight: bold;
-		padding: 0 20px 30px;
+		padding: 7px 0 30px;
 		text-decoration: none;
 	}
 
 	.menu_bar span {
 		float: right;
-		font-size: 40px;
+		font-size: 35px;
 	}
 }
 
