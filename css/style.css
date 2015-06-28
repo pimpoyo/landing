@@ -515,6 +515,71 @@ header {
 	float: right;
 	font-size: 35px;
 }
+	.dimImg {
+		min-height: 200px;
+		max-height: 100%;
+		width: 100%;
+	}
+
+	.generalImg1 {
+		background-image: url("../img/IJ5A9797.jpg");
+	}
+	
+	.generalImg2 {
+		background-image: url("../img/IJ5A9804.jpg");
+	}
+	
+	.generalImg3 {
+		background-image: url("../img/IJ5A9819.jpg");
+	}
+
+	.infantilImg1 {
+		background-image: url("../img/imgInf1-480x200.jpg");
+	}
+	
+	.infantilImg2 {
+		background-image: url("../img/imgInf1-480x200.jpg");
+	}
+	
+	.infantilImg3 {
+		background-image: url("../img/imgInf1-480x200.jpg");
+	}
+	
+	.primariaImg1 {
+		background-image: url("../img/IJ5A9797.jpg");
+	}
+	
+	.primariaImg2 {
+		background-image: url("../img/IJ5A9804.jpg");
+	}
+	
+	.primariaImg3 {
+		background-image: url("../img/IJ5A9819.jpg");
+	}
+
+	.secundariaImg1 {
+		background-image: url("../img/IJ5A9797.jpg");
+	}
+	
+	.secundariaImg2 {
+		background-image: url("../img/IJ5A9804.jpg");
+	}
+	
+	.secundariaImg3 {
+		background-image: url("../img/IJ5A9819.jpg");
+	}
+	
+	.bachilleratoImg1 {
+		background-image: url("../img/imgInf1-2500x400.jpg");
+	}
+	
+	.bachilleratoImg2 {
+		background-image: url("../img/imgInf1-2500x400.jpg");
+	}
+	
+	.bachilleratoImg3 {
+		background-image: url("../img/imgInf1-2500x400.jpg");
+	}
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 479px) {
