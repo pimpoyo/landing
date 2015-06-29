@@ -4,7 +4,7 @@ app.controller('MainController', ['$scope', function($scope){
 		images : {
 			classImage1: 'generalImg1',
 			classImage2: 'generalImg2',
-			classImage3: 'generalImg3'
+			classImage3: 'generalImg1'
 		},
 		etapaTitle: 'Título general',
 		etapaTitleClass: 'titleGeneral',
@@ -46,7 +46,7 @@ app.controller('MainController', ['$scope', function($scope){
 		images : {
 			classImage1: 'secundariaImg1',
 			classImage2: 'secundariaImg2',
-			classImage3: 'secundariaImg3'
+			classImage3: 'secundariaImg1'
 		},
 		etapaTitle: 'Título secundaria',
 		etapaTitleClass: 'titleSecundaria',
@@ -58,9 +58,9 @@ app.controller('MainController', ['$scope', function($scope){
 	$scope.bachillerato = {
 		headerClass: 'headerBachillerato',
 		images : {
-			classImage1: 'bachilleratoImg1',
-			classImage2: 'bachilleratoImg2',
-			classImage3: 'bachilleratoImg3'
+			classImage1: 'secundariaImg1',
+			classImage2: 'secundariaImg2',
+			classImage3: 'secundariaImg1'
 		},
 		etapaTitle: 'Título bachillerato',
 		etapaTitleClass: 'titleBachillerato',
