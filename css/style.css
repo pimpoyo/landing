@@ -57,11 +57,20 @@ footer p {
 .pilar {
 	float: left;
 	text-align: center;
-	width: 150px;
+	width: 140px;
 }
 
 .pilar div {
 	clear: both;
+}
+
+.pilar h4 {
+  margin-bottom: 10px;
+}
+
+.pilar .texto {
+  margin: 0;
+  font-size: 12px;
 }
 
 .circle {
@@ -643,6 +652,22 @@ footer div a {
 	.bachilleratoImg3 {
 		background-image: url("../img/imgBac3-480x200.jpg");
 	}
+  
+  .pilar {
+		margin: 20px 5%;
+    float: none;
+    width: auto;
+	}
+
+  .circle {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .circle p {
+    padding-top: 25px;
+  }
+	
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 479px) {
@@ -834,8 +859,22 @@ footer div a {
 	.submit:hover .ease {
 		width: 100%;
 	}
-	
 	/* Form - End */
+	
+  .pilar {
+		margin: 20px 5%;
+    float: none;
+    width: auto;
+	}
+
+  .circle {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .circle p {
+    padding-top: 25px;
+  }
 }
 
 @media screen and (min-device-width: 480px) and (max-device-width: 767px) {
@@ -1020,6 +1059,20 @@ footer div a {
 	}
 	
 	/* Form - End */
+	.pilar {
+		margin: 20px 5%;
+    float: none;
+    width: auto;
+	}
+
+  .circle {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .circle p {
+    padding-top: 25px;
+  }
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
@@ -1149,7 +1202,9 @@ footer div a {
 	/* Form - End */
 	
 	.pilar {
-		margin: 0 5%;
+		margin: 5%;
+    padding: 0;
+    width: 150px;
 	}
 }
 
@@ -1287,6 +1342,7 @@ footer div a {
 	
 	.pilar {
 		margin: 0;
+    padding: 0 5px 20px;
 	}
 }
 
@@ -1423,6 +1479,7 @@ footer div a {
 	
 	.pilar {
 		margin: 0 20px;
+    padding: 0 5px 20px;
 	}
 }
 /* Mediaqueries - End */
