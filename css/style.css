@@ -213,6 +213,7 @@ footer p {
 
 .nav_main {
 	background-color: #00192F;
+  z-index: 500;
 }
 
 .nav_main ul {
@@ -566,7 +567,13 @@ footer div a {
 		padding: 7px 0 30px;
 		text-decoration: none;
 	}
-	
+
+	.phone2 {
+		font-size: 20px;
+		top: 177px;
+		width: 90%;
+	}
+
 	.menu_bar span {
 		float: right;
 		font-size: 35px;
@@ -716,7 +723,7 @@ footer div a {
 	}
 
 	.phone2 {
-		font-size: 40px;
+		font-size: 20px;
 		top: 177px;
 		width: 90%;
 	}
@@ -909,7 +916,7 @@ footer div a {
 	}
 	
 	.phone2 {
-		font-size: 50px;
+		font-size: 35px;
 		top: 177px;
 		width: 90%;
 	}

@@ -2,7 +2,7 @@
 	<h1 class="{{ info.etapaTitleClass }}">
 		{{ info.etapaTitle }}
 	</h1>
-	<div class="texto">
-		{{ info.etapaContent }}
+  <div class="texto">
+    <p ng-repeat="content in info.etapaContents">{{ content }}</p>
 	</div>
 </div>
