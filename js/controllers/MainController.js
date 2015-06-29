@@ -1,6 +1,7 @@
 app.controller('MainController', ['$scope', function($scope){
 	$scope.general = {
-		headerClass: 'headerGeneral',
+    hidden: 'General',
+    headerClass: 'headerGeneral',
 		images : {
 			classImage1: 'generalImg1',
 			classImage2: 'generalImg2',
@@ -18,6 +19,7 @@ app.controller('MainController', ['$scope', function($scope){
 		footerClass: 'footerGeneral'
 	},
 	$scope.infantil = {
+    hidden: 'Infantil',
 		headerClass: 'headerInfantil',
 		images : {
 			classImage1: 'infantilImg1',
@@ -36,6 +38,7 @@ app.controller('MainController', ['$scope', function($scope){
 		footerClass: 'footerInfantil'
 	},
 	$scope.primaria = {
+    hidden: 'Primaria',
 		headerClass: 'headerPrimaria',
 		images : {
 			classImage1: 'primariaImg1',
@@ -54,6 +57,7 @@ app.controller('MainController', ['$scope', function($scope){
 		footerClass: 'footerPrimaria'
 	},
 	$scope.secundaria = {
+    hidden: 'Secundaria',
 		headerClass: 'headerSecundaria',
 		images : {
 			classImage1: 'secundariaImg1',
@@ -72,6 +76,7 @@ app.controller('MainController', ['$scope', function($scope){
 		footerClass: 'footerSecundaria'
 	},
 	$scope.bachillerato = {
+    hidden: 'Bachillerato',
 		headerClass: 'headerBachillerato',
 		images : {
 			classImage1: 'secundariaImg1',

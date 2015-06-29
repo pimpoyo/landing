@@ -9,7 +9,8 @@
 		</p>
 		<p class="phone">
 			<input type="tel" pattern="[0-9]{9}" class="feedback-input" placeholder="Teléfono" maxlength="9" required/>
-		</p>
+    </p>
+    <input type="hidden" name="etapa" value="{{ info.hidden }}" />
 		<div class="submit">
 			<input type="submit" value="Solicitar más información" id="button" class="{{ info.btColor }}"/>
 			<div class="ease"></div>
