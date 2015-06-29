@@ -50,6 +50,35 @@ footer p {
 	color: #4E4D4D;
 }
 
+.pilares {
+	clear: both;
+}
+
+.pilar {
+	float: left;
+	margin: 0 20px;
+	text-align: center;
+	width: 150px;
+}
+
+.pilar div {
+	clear: both;
+}
+
+.circle {
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+
+.circle p {
+	color: white;
+	font-size: 50px;
+	margin: 25px 0;
+	text-align: center;	
+}
+
 .link {
 	font-size: 18px;
 	font-weight: 600;
