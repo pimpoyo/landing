@@ -56,7 +56,6 @@ footer p {
 
 .pilar {
 	float: left;
-	margin: 0 20px;
 	text-align: center;
 	width: 150px;
 }
@@ -68,6 +67,7 @@ footer p {
 .circle {
 	border-radius: 50%;
 	height: 100px;
+	margin: 0 25px;
 	width: 100px;
 	float: left;
 }
@@ -1139,8 +1139,11 @@ footer div a {
 	.submit:hover .ease {
 		width: 100%;
 	}
-	
 	/* Form - End */
+	
+	.pilar {
+		margin: 0 5%;
+	}
 }
 
 @media screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
@@ -1274,6 +1277,10 @@ footer div a {
 	}
 	
 	/* Form - End */
+	
+	.pilar {
+		margin: 0;
+	}
 }
 
 @media screen and (min-device-width: 1280px) {
@@ -1405,7 +1412,10 @@ footer div a {
 	.submit:hover .ease {
 		width: 100%;
 	}
-	
 	/* Form - End */
+	
+	.pilar {
+		margin: 0 20px;
+	}
 }
 /* Mediaqueries - End */
