@@ -33,6 +33,19 @@ footer p {
 	text-transform: uppercase;
 }
 
+.phone2 {
+	position: absolute;
+	text-align: center;
+	text-shadow: 0 0 5px #00192f;
+}
+
+.phone2 p {
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-weight: 600;
+}
+
 .texto {
 	color: #4E4D4D;
 }
@@ -457,78 +470,78 @@ footer div a {
 @media screen and (max-device-width: 319px) {
 	.container {
 		min-width: 319px;
-}
-
-header {
-	padding-bottom: 35px;
-}	
-
-.escudo {
-	background-image: url("../img/logo-46x55.png");
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
-	margin-right: 10%;
-	height: 55px;
-	width: 46px;	
-}
-
-.call_to_action {
-	float: left;
-	margin: 0;
-	padding-left: 0;
-	padding-right: 0;
-	width: 50%;
-}
-
-.main_nav {
-	margin: 0;
-	padding: 0;
-	border: none;
-	clear: none;
-}
-
-.nav_main {
-	width: 60%;
-	/*height: 100%;*/
-	left: -100%;
-	margin: 34px 0 0 -5%;
-	position: absolute;
-	border-top: 1px solid rgba(255, 255, 255, .3);
-}
-
-.nav_main ul li {
-	display: block;
-	float: none;
-	border-bottom: 1px solid rgba(255, 255, 255, .3);
-	text-align: left;
-}
-
-.nav_main ul li a {
-	border-radius: 0;
-	margin: 0;
-	padding-left: 15%;
-}
-
-.menu_bar {
-	display: block;
-	width: 100%;
-	background-color: #CCCCCC;
-}
-
-.bt-menu {
-	background-color: #00192F;
-	color: #FFFFFF;
-	display: block;
-	font-weight: bold;
-	padding: 7px 0 30px;
-	text-decoration: none;
-}
-
-.menu_bar span {
-	float: right;
-	font-size: 35px;
-}
+	}
+	
+	header {
+		padding-bottom: 35px;
+	}	
+	
+	.escudo {
+		background-image: url("../img/logo-46x55.png");
+		background-repeat: no-repeat;
+		display: block;
+		float: left;
+		margin-right: 10%;
+		height: 55px;
+		width: 46px;	
+	}
+	
+	.call_to_action {
+		float: left;
+		margin: 0;
+		padding-left: 0;
+		padding-right: 0;
+		width: 50%;
+	}
+	
+	.main_nav {
+		margin: 0;
+		padding: 0;
+		border: none;
+		clear: none;
+	}
+	
+	.nav_main {
+		width: 60%;
+		/*height: 100%;*/
+		left: -100%;
+		margin: 34px 0 0 -5%;
+		position: absolute;
+		border-top: 1px solid rgba(255, 255, 255, .3);
+	}
+	
+	.nav_main ul li {
+		display: block;
+		float: none;
+		border-bottom: 1px solid rgba(255, 255, 255, .3);
+		text-align: left;
+	}
+	
+	.nav_main ul li a {
+		border-radius: 0;
+		margin: 0;
+		padding-left: 15%;
+	}
+	
+	.menu_bar {
+		display: block;
+		width: 100%;
+		background-color: #CCCCCC;
+	}
+	
+	.bt-menu {
+		background-color: #00192F;
+		color: #FFFFFF;
+		display: block;
+		font-weight: bold;
+		padding: 7px 0 30px;
+		text-decoration: none;
+	}
+	
+	.menu_bar span {
+		float: right;
+		font-size: 35px;
+	}
 	.dimImg {
 		min-height: 200px;
 		max-height: 100%;
@@ -672,7 +685,13 @@ header {
 		float: right;
 		font-size: 35px;
 	}
-	
+
+	.phone2 {
+		font-size: 40px;
+		top: 177px;
+		width: 90%;
+	}
+
 	.dimImg {
 		min-height: 200px;
 		max-height: 100%;
@@ -860,6 +879,12 @@ header {
 		font-size: 35px;
 	}
 	
+	.phone2 {
+		font-size: 50px;
+		top: 177px;
+		width: 90%;
+	}
+	
 	.dimImg {
 		min-height: 200px;
 		max-height: 100%;
@@ -981,6 +1006,12 @@ header {
 		margin: 0 1%;
 	}
 	
+	.phone2 {
+		font-size: 50px;
+		top: 320px;
+		width: 90%;
+	}
+	
 	.dimImg {
 		min-height: 300px;
 		max-height: 100%;
@@ -1100,6 +1131,12 @@ header {
 	
 	.nav_main a {
 		margin: 0 10px;
+	}
+	
+	.phone2 {
+		font-size: 50px;
+		top: 320px;
+		width: 90%;
 	}
 	
 	.dimImg {
@@ -1226,6 +1263,12 @@ header {
 	
 	.nav_main a {
 		margin: 0 10px;
+	}
+	
+	.phone2 {
+		font-size: 50px;
+		top: 375px;
+		width: 90%;
 	}
 
 	.dimImg {
