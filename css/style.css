@@ -1008,6 +1008,7 @@ footer div a {
 	
 	.phone2 {
 		font-size: 50px;
+		max-width: 960px;
 		top: 320px;
 		width: 90%;
 	}
@@ -1135,6 +1136,7 @@ footer div a {
 	
 	.phone2 {
 		font-size: 50px;
+		max-width: 960px;
 		top: 320px;
 		width: 90%;
 	}
@@ -1269,6 +1271,7 @@ footer div a {
 		font-size: 50px;
 		top: 375px;
 		width: 90%;
+		max-width: 1170px;
 	}
 
 	.dimImg {
