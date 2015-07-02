@@ -110,6 +110,8 @@ footer p {
 
 .titleGeneral {
 	color: #0088FF;
+  line-height: 1em;
+  text-align: left;
 }
 
 .footerGeneral {
@@ -132,6 +134,8 @@ footer p {
 
 .titleInfantil {
 	color: #98C21A;
+  line-height: 1em;
+  text-align: left;
 }
 
 .footerInfantil {
@@ -155,6 +159,8 @@ footer p {
 
 .titlePrimaria {
 	color: #FFC000;
+  line-height: 1em;
+  text-align: left;
 }
 
 .footerPrimaria {
@@ -178,6 +184,8 @@ footer p {
 
 .titleSecundaria {
 	color: #7D7D7D;
+  line-height: 1em;
+  text-align: left;
 }
 
 .footerSecundaria {
@@ -201,6 +209,8 @@ footer p {
 
 .titleBachillerato {
 	color: #FF782E;
+  line-height: 1em;
+  text-align: left;
 }
 
 .footerBachillerato {
@@ -1306,14 +1316,14 @@ footer div a {
 		margin-right: 5%;
 		margin-top: 30px;
 		text-align: justify;
-		width: 50%;	
+		width: 49.5%;	
 	}
 	
 	/* Form - Start */
 	#formulario {
 		float: right;
 		margin: 55px 0;
-		padding: 5px 35px 25px;
+		padding: 5px 29px 25px;
 		width: 35%;
 	}
 	
@@ -1444,7 +1454,7 @@ footer div a {
 		margin-right: 5%;
 		margin-top: 30px;
 		text-align: justify;
-		width: 50%;	
+		width: 49.5%;	
 	}
 	
 	/* Form - Start */
