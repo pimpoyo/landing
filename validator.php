@@ -1,5 +1,66 @@
 <?php
-  $etapa = strtolower($_REQUEST['etapa']);
+$etapa = strtolower($_REQUEST['etapa']);
+
+$flag = true;
+
+if ($_REQUEST['name'] == "") {
+  $flag = false;
+} elseif(strlen($_REQUEST['name']) < 3) {
+  $flag = false;
+} else {
+  $name = $_REQUEST['name'];
+} 
+
+if ($_REQUEST['email'] == "") {
+  $flag = false;
+} elseif (!filter_var($_REQUEST['email'], FILTER_VALIDATE_EMAIL)) {
+  $flag = false;
+} else {
+  $email = $_REQUEST['email'];
+}
+
+if ($_REQUEST['phone'] == "") {
+  $flag = false;
+} elseif(strlen($_REQUEST['phone']) < 9) {
+  $flag = false;
+} else {
+    $phone = $_REQUEST['phone'];
+}
+
+
+
+  $to = 'pimpoyolega@gmail.com'; //Direccion de correo provisional para pruebas
+  $title = 'SOLICITUD: deseo información de ' . $etapa;
+
+$message = '
+<html>
+<head>
+  <title>' . $title . '</title>
+</head>
+<body>
+  <p>Deseo información sobre ' . $etapa  . '</p>
+  <p>Mi nombre: ' . $name  . '</p>
+  <p>Mi email: ' . $email  . '</p>
+  <p>Mi teléfono: ' . $phone . '</p>
+</body>
+</html>
+';
+
+// Para enviar un correo HTML, debe establecerse la cabecera Content-type
+$headers  = 'MIME-Version: 1.0' . "\r\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+// headers adicionales
+$headers .= $to . "\r\n";
+$headers .= 'From: Landing page <aravacalanding@aravaca.com>' . "\r\n";
+
+if ($flag != true) {
+  $code = '<app-form info="' . $etapa . '"></app-form>';
+} else {
+  mail($to, $title, $message, $headers);
+  $code = '<app-respuesta info="' . $etapa . '"></app-respuesta>';
+}
+
 ?>
 
 <!doctype html>
@@ -23,7 +84,7 @@
       <app-slider info="<?echo $etapa;?>"></app-slider>
 			<div class="container">
       <app-etapa info="<?echo $etapa;?>"></app-etapa>
-      <app-respuesta info="<?echo $etapa;?>"></app-respuesta>
+      <? echo $code;?> 
       </div>
       <app-pilares info="<?echo $etapa;?>"></app-pilares>
       <app-footer info="<?echo $etapa;?>"></app-footer>
@@ -35,6 +96,7 @@
 		<script src="js/directives/appHeader.js"></script>
 		<script src="js/directives/appSlider.js"></script>
 		<script src="js/directives/appEtapa.js"></script>
+		<script src="js/directives/appForm.js"></script>
 		<script src="js/directives/appRespuesta.js"></script>
 		<script src="js/directives/appPilares.js"></script>
 		<script src="js/directives/appFooter.js"></script>
@@ -42,6 +104,3 @@
 		<script src="js/menu.js" type="text/javascript"></script>
 	</body>
 </html>
-<?php
-  $to = 'pimpoyolega@gmail.com' . ', ';
-?>
