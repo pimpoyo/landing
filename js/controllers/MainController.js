@@ -49,7 +49,7 @@ etapaTitle: 'Internacional Aravaca: Valor, fuerza, misión, compromiso y pasión
 		etapaTitleClass: 'titlePrimaria',
 		etapaContents: {
       p1: 'En una etapa tan larga como la Educación Primaria, en Internacional Aravaca nos preocupamos especialmente de que nuestros alumnos sean constantes en su estudio. Para ello, proponemos unas claves fundamentales para que persigan el éxito total. Siempre respetando la creatividad, los profesores proponen distintas tareas a los alumnos, sobre todo grupales para que comiencen a aprender a trabajar en equipo. De esta manera, tus hijos sabrán organizar sus ideas y su tiempo, en una sociabilidad permanente, y desarrollarán métodos de trabajo óptimos y prácticos (claves visuales, reglas nemotécnicas, juegos...). ',
-      p2: 'Por otra parte, en Internacional Aravaca nos preocupan los idiomas y en Primaria pensamos que el inglés no es suficiente, así que en esta etapa tus hijos podrán disfrutar de las primeras nociones de francés o alemán con una metodología altamente motivante, lúdica, integradora y que los impulsa a valorar no solo sus conocimientos, sino también a ellos mismos. ',
+      p2: 'Por otra parte, en Internacional Aravaca nos preocupan los idiomas y en Primaria pensamos que el inglés no es suficiente, así que en esta etapa tus hijos podrán disfrutar de las primeras nociones de francés o alemán con una metodología altamente motivadora, lúdica, integradora y que los impulsa a valorar no solo sus conocimientos, sino también a ellos mismos.',
       p3: 'Esta es la Educación Primaria en Internacional Aravaca. Porque, ante todo, formamos personas. Ese es nuestro objetivo y por él luchamos cada día. '
     },
 		formTitleColor: 'formTitlePrimaria',
