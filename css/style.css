@@ -677,6 +677,14 @@ footer div a {
   .circle p {
     padding-top: 25px;
   }
+  
+  .mensaje {
+    line-height: 1.5em;
+    margin: 0 auto;
+    padding: 129px 0;
+    text-align: center;
+    width: 90%; 
+  }
 	
 }
 
@@ -885,6 +893,14 @@ footer div a {
   .circle p {
     padding-top: 25px;
   }
+  
+  .mensaje {
+    line-height: 1.5em;
+    margin: 0 auto;
+    padding: 129px 0;
+    text-align: center;
+    width: 90%; 
+  }
 }
 
 @media screen and (min-device-width: 480px) and (max-device-width: 767px) {
@@ -1083,6 +1099,14 @@ footer div a {
   .circle p {
     padding-top: 25px;
   }
+  
+  .mensaje {
+    line-height: 1.5em;
+    margin: 0 auto;
+    padding: 129px 0;
+    text-align: center;
+    width: 90%; 
+  }
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
@@ -1216,6 +1240,14 @@ footer div a {
     padding: 0;
     width: 150px;
 	}
+  
+  .mensaje {
+    line-height: 1.5em;
+    margin: 0 auto;
+    padding: 129px 0;
+    text-align: center;
+    width: 90%; 
+  }
 }
 
 @media screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
@@ -1354,6 +1386,14 @@ footer div a {
 		margin: 0;
     padding: 0 5px 20px;
 	}
+  
+  .mensaje {
+    line-height: 1.5em;
+    margin: 0 auto;
+    padding: 129px 0;
+    text-align: center;
+    width: 90%; 
+  }
 }
 
 @media screen and (min-device-width: 1280px) {
@@ -1491,5 +1531,13 @@ footer div a {
 		margin: 0 20px;
     padding: 0 5px 20px;
 	}
+
+  .mensaje {
+    line-height: 1.5em;
+    margin: 0 auto;
+    padding: 129px 0;
+    text-align: center;
+    width: 80%; 
+  }
 }
 /* Mediaqueries - End */
