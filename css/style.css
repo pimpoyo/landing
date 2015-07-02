@@ -673,7 +673,7 @@ footer div a {
 @media screen and (min-device-width: 320px) and (max-device-width: 479px) {
 	.container {
 		margin: 0 auto;
-		width: 90%;
+		width: 88%;
 	}
 	
 	header {
@@ -695,7 +695,7 @@ footer div a {
 		margin: 0;
 		padding-left: 0;
 		padding-right: 0;
-		width: 50%;
+		width: 47%;
 	}
 	
 	.main_nav {
